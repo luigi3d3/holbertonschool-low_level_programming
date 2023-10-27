@@ -1,7 +1,8 @@
 /**
  * _strlen - medir devuelve la longitud de una cadena
  * @s: es la variable con la que va recorre la cadena
- * Descrition: con el bucle while, recorre la cadena hasta encontrar el terminal null
+ * Descrition: con el bucle while, recorre la cadena
+ * hasta encontrar el terminal null
  * Return: length
  */
 
