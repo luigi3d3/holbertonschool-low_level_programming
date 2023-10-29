@@ -1,7 +1,7 @@
 /**
  * print_rev -Escribe una función que imprima una cadena, al revés.
  * @s: es la variable con la que va a recorre la cadena
- * Descrition: imprime una cadena al revez 
+ * Descrition: imprime una cadena al reves
  * Return: cadena inversa
  */
 
@@ -23,5 +23,5 @@ void print_rev(char *s)
 		putchar(s[i]);
 	}
 
-	putchar('\n');	
+	putchar('\n');
 }
