@@ -20,7 +20,7 @@ void puts_half(char *str)
 		length++;
 	}
 
-	medio = (length - 1)/ 2 + 1;
+	medio = (length - 1) / 2 + 1;
 	for (i = medio; i < length; i++)
 	{
 		putchar(str[i]);
