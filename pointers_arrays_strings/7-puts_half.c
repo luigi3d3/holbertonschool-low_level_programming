@@ -1,0 +1,23 @@
+#include "main.h"
+#include <stdio.h>
+
+void puts_half(char *str)
+{
+	int length = 0;
+	int medio;
+	int i;
+
+	while (str[length] != '\0')
+	{
+		length++;
+	}
+
+	medio = (length - 1) / 2 + 1;
+	
+	for (i = medio; i < length; i++) 
+	{
+		putchar(str[i]);
+	}
+
+	putchar('\n');
+}
