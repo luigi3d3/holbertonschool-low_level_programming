@@ -1,5 +1,5 @@
 /**
- * puts2 - Escibre una funcion que impre una 
+ * puts2 - Escribre una funcion que impre una
  * cadena cada dos valores
  * @str: toma un puntero a una matriz de caracteres
  * como argumento.
@@ -18,7 +18,7 @@ void puts2(char *str)
 
 	while (str[i] != '\0')
 	{
-		if( i % 2 == 0)
+		if (i % 2 == 0)
 		{
 			putchar(str[i]);
 		}
