@@ -1,7 +1,8 @@
 /**
- * _strcpy - Escribe una función que copie la cadena apuntada por src
+ * _strcpy - Escribe una función que copie la
+ * cadena apuntada por src
  * @dest: es el puntero de destino de la cadena
- * @str: es el puntero de origen de la cadena
+ * @src: es el puntero de origen de la cadena
  * Description: genera una copia de cadena
  * Return: finally_dest
  */
