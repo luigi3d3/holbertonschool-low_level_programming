@@ -1,8 +1,9 @@
 /**
  * init_dog - definicion de la variables tipo en el struct
- * @name - define nombre
- * @age - define edad
- * @owner - define dueño
+ * @d: es puntero del struct
+ * @name: define nombre
+ * @age: define edad
+ * @owner: define dueño
  * Descrition - definir variable en la struct
  */
 
@@ -12,7 +13,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if(d != NULL)
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;
