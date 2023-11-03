@@ -4,6 +4,7 @@
  * @age - define edad
  * @owner - define dueño
  * Descrition - definir variable en la struct
+ */
 
 
 #include <stdio.h>
