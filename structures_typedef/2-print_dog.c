@@ -4,7 +4,8 @@
  * @name: define nombre
  * @age: define dueño
  * @owner: define dueño
- * Description - definir variables en la struct
+ * Description - definir variables en la struc
+ */
 
 #include <stdio.h>
 #include "dog.h"
