@@ -2,7 +2,10 @@
 #define dog_h
 
 /**
- * struct god - Realizar definiciones de tipo
+ * struct dog - Realizar definiciones de tipo
+ * @name : definicion nombre
+ * @owner : definicion del dueño
+ * @age : definicion de la edad
  * Description: Definicion de los tipos de struct
  */
 
