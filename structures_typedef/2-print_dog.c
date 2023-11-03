@@ -1,9 +1,6 @@
 /**
- * print-dog - definicion de la variables tipo en el struct
+ * print_dog - definicion de la variables tipo en el struct
  * @d: es puntero del struc
- * @name: define nombre
- * @age: define dueño
- * @owner: define dueño
  * Description - definir variables en la struc
  */
 
