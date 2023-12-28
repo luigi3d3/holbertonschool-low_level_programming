@@ -2,7 +2,7 @@
 
 /**
  * is_prime_number - int
- * check_divisibility - int
+ * @check_divisibility - int
  * @n: checked
  * @i: checked
  * Description: verify prime number
