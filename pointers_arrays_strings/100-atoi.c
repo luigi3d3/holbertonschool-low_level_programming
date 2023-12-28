@@ -1,35 +1,32 @@
-/**
- * _atoi - Escribe una función que convierta
- * una cadena en un número entero
- * @s: es la variable con la recorre la cadena
- * Descrition: Convierte una cadena en numeros enteros
- * Return: result * sign
- */
-
 #include "main.h"
-#include <stdio.h>
-#include <limits.h>
+
+/**
+ * _atoi - convert string to integer
+ * @s: parameter to convert
+ * Return: 0
+ */
 
 int _atoi(char *s)
 {
-	int result = 0;
 	int sign = 1;
+	int result = 0;
+	int started = 0;
 
-	while (*s == '-' || *s == '+')
+	for (; *s != '\0'; s++)
 	{
 		if (*s == '-')
-		sign *= -1;
-		s++;
-	}
-
-	while (*s >= '0' && *s <= '9')
-	{
-		if (result > INT_MAX / 10 || (result == INT_MAX / 10 && *s - '0' > INT_MAX % 10))
 		{
-			return (sign == 1) ? INT_MAX : INT_MIN;
+			if (started)
+				break;
+			sign *= -1;
+		} else if (*s >= '0' && *s <= '9')
+		{
+			started = 1;
+			result = result * 10 + (*s - '0');
+		} else if (started)
+		{
+			break;
 		}
-		result = result * 10 + (*s - '0');
-		s++;
 	}
-	return result * sign;
+	return (result * sign);
 }
