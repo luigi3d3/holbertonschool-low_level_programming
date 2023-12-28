@@ -2,7 +2,7 @@
 
 /**
  * add - int
- * @a: the character checked 
+ * @a: the character checked
  * @b: the character checked
  * Description: adds two integers
  * Return: result
