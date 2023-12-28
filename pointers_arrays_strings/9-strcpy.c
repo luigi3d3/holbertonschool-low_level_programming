@@ -1,26 +1,24 @@
-/**
- * _strcpy - Escribe una función que copie la
- * cadena apuntada por src
- * @dest: es el puntero de destino de la cadena
- * @src: es el puntero de origen de la cadena
- * Description: genera una copia de cadena
- * Return: finally_dest
- */
-
 #include "main.h"
-#include <stdio.h>
+
+/**
+ * *_strcpy - char
+ * @dest: the character checked
+ * @src: checked
+ * Description: Write a function that copies the string pointed
+ * Return: 0
+ */
 
 char *_strcpy(char *dest, char *src)
 {
-	char *finally_dest = dest;
+	int i = 0;
 
-	while (*src != '\0')
+	while (src[i] != '\0')
 	{
-		*dest = *src;
-		dest++;
-		src++;
+		dest[i] = src[i];
+		i++;
 	}
-	*dest = '\0';
 
-	return (finally_dest);
+	dest[i] = '\0';
+
+	return (dest);
 }
