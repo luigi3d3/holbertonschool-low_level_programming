@@ -9,7 +9,9 @@
  * Return: 1 prime number, otherwise 0
  */
 
-#include "main.h"
+/**
+ * check_divisibility - check divisivility between numbers
+ */
 
 int check_divisibility(int n, int i)
 {
