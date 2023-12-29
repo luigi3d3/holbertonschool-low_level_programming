@@ -1,39 +1,23 @@
 #include "main.h"
 
 /**
- * jack_bauer - void
- * print_digit - int
- * @digit: checked
- * Description: prints every minute of the day of Jack Bauer
- * Return: 0
+ * jack_bauer - prints every minute starting from 00:00 to 23:59.
  */
-
-/**
- * print_digit - use the _putchar module
- */
-
-void print_digit(int digit)
-{
-	_putchar(digit + '0');
-}
 
 void jack_bauer(void)
 {
-	int hour, minute;
+        int hour, minute;
 
-	for (hour = 0; hour < 24; hour++)
-	{
-		for (minute = 0; minute < 60; minute++)
-			{
-			print_digit(hour / 10);
-
-			print_digit(hour % 10);
-			_putchar(':');
-
-			print_digit(minute / 10);
-
-			print_digit(minute % 10);
-			_putchar('\n');
-			}
-	}
+        for (hour = 0; hour < 24; hour++)
+        {
+                for (minute = 0; minute < 60; minute++)
+                {
+                        _putchar((hour / 10) + '0');
+                        _putchar((hour % 10) + '0');
+                        _putchar(':');
+                        _putchar((minute / 10) + '0');
+                        _putchar((minute % 10) + '0');
+                        _putchar('\n');
+                }
+        }
 }
