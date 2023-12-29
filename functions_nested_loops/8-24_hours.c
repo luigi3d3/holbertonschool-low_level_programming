@@ -2,10 +2,14 @@
 
 /**
  * jack_bauer - void
- * print_digit - void
+ * print_digit - int
  * @digit: checked
  * Description: prints every minute of the day of Jack Bauer
  * Return: 0
+ */
+
+/**
+ * print_digit - use the _putchar module
  */
 
 void print_digit(int digit)
