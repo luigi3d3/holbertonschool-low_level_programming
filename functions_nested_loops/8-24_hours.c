@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - void
- * print_digit - print
+ * print_digit - void
  * @digit: checked
  * Description: prints every minute of the day of Jack Bauer
  * Return: 0
